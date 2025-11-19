@@ -1,2 +1,75 @@
-HELP.md
+############################
+# Maven
+############################
 target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+out/
+
+############################
+# Eclipse / STS
+############################
+.project
+.classpath
+.factorypath
+.settings/
+.springBeans
+.sts4-cache/
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Java
+############################
+*.class
+*.jar
+*.war
+*.ear
+
+############################
+# Spring Boot
+############################
+application-prod.properties
+application-dev.properties
+application-local.properties
+
+############################
+# H2 Database files
+############################
+*.mv.db
+*.trace.db
+
+############################
+# Backup files
+############################
+*.jpb
+*.bak
+*.tmp
+
+############################
+# Others
+############################
+*.swp
+*.swo
+*.cache
